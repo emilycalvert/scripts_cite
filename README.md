@@ -19,7 +19,7 @@ __* Consulting Services Potential:__ As a government agency involved in research
 ## **Usage**
 To utilize these scripts effectively, ensure you have the necessary dependencies installed and follow the instructions provided within each notebook. Feel free to explore, modify, and adapt the scripts to suit specific project requirements.
 
-- imaza.csv: data about one of the largest and oldest privately-own plots of mixed-forest for harvest here in Loreto, Peru. The owners of IMAZA have graciously allowed CiteForestal-Maynas to conduct extensive research to gain a deeper understanding of ecosystem and forest health in relation to timber harvest. The scripts in here use the IMAZA csv for reference. All data contained is available through public registries.
+- imazacoord_NOppi.csv: data about one of the largest and oldest privately-own plots of mixed-forest for harvest here in Loreto, Peru. The owners of IMAZA have graciously allowed CiteForestal-Maynas to conduct extensive research to gain a deeper understanding of ecosystem and forest health in relation to timber harvest. The scripts in here use the IMAZA csv for reference. All data contained is available through public registries.
 
 ## **Support and Feedback**
 If you encounter any issues, have suggestions for improvements, or would like to collaborate on further developments, please don't hesitate to reach out. Your feedback is invaluable in refining these scripts and driving innovation in our teledetection lab.
