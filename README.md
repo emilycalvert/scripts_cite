@@ -1,6 +1,6 @@
 # **Teledetection Lab Scripts**
 
-Welcome to my Teledetection Lab Scripts repository! Here, you'll find a collection of scripts and notebooks aimed at automating and enhancing workflows within our teledetection lab at CiteForestal-Maynas in the heart of the Amazon in Peru. These scripts have been developed to address specific needs and challenges, particularly in the realm of earth observation and remote sensing analysis.
+Welcome to my Teledetection Lab Scripts repository! Here, you'll find a collection of scripts and notebooks aimed at automating and enhancing workflows within our teledetection lab at CiteForestal-Maynas in the heart of the Amazon in Peru. These scripts have been developed to address specific needs and challenges, particularly in the realm of earth observation and remote sensing analysis for sustainable forestry.
 
 ## **Overview**
 
@@ -24,4 +24,4 @@ To utilize these scripts effectively, ensure you have the necessary dependencies
 ## **Support and Feedback**
 If you encounter any issues, have suggestions for improvements, or would like to collaborate on further developments, please don't hesitate to reach out. Your feedback is invaluable in refining these scripts and driving innovation in our teledetection lab.
 
-Let's continue pushing the boundaries of earth observation and remote sensing together! 🌍✨
+Let's continue pushing the boundaries of earth observation and remote sensing together! 🌍✨ Go hug a tree....🌴🌿🌱🌳 
