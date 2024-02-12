@@ -12,9 +12,9 @@ This notebook is a powerful tool for monitoring timber extraction activities. By
 
 Value Contribution:
 
-__* Enhanced Monitoring and Enforcement:__ In regions where monitoring and enforcement agencies lack efficient methods for verifying timber transport permits, this script fills a crucial gap. It enables quick, easy, and cost-effective verification of permits, thereby deterring illegal timber harvesting practices. 
+- **Enhanced Monitoring and Enforcement:** In regions where monitoring and enforcement agencies lack efficient methods for verifying timber transport permits, this script fills a crucial gap. It enables quick, easy, and cost-effective verification of permits, thereby deterring illegal timber harvesting practices. 
 
-__* Consulting Services Potential:__ As a government agency involved in research and technology development, we can leverage this script to propose legislative recommendations aimed at standardizing permit verification practices. Subsequently, we can offer consulting services to other agencies, further extending our impact and revenue streams.
+- **Consulting Services:** As a government agency involved in research and technology development, we willleverage this script to propose legislative recommendations aimed at standardizing permit verification practices. Subsequently, we can offer consulting services to other agencies, further extending our impact and revenue streams.
 
 ### ***2. analisis_salud_bosque_ejemplo.ipynb
 
