@@ -16,6 +16,31 @@ __* Enhanced Monitoring and Enforcement:__ In regions where monitoring and enfor
 
 __* Consulting Services Potential:__ As a government agency involved in research and technology development, we can leverage this script to propose legislative recommendations aimed at standardizing permit verification practices. Subsequently, we can offer consulting services to other agencies, further extending our impact and revenue streams.
 
+### ***2. analisis_salud_bosque_ejemplo.ipynb
+
+This notebook includes various analyses and visualizations that help understand changes in forest health and coverage in the Loreto region, Peru. Using vegetation indices such as NDVI and EVI, we can detect areas of vegetation gain or loss over time, which is crucial for making sustainable decisions in forest management.
+
+#### Analysis Process
+
+The process includes the following steps:
+
+1. **Data Preparation**: Loading and processing Landsat satellite images to obtain vegetation indices.
+2. **Temporal Analysis**: Comparing images to detect changes in vegetation cover between two time periods.
+3. **Interactive Visualization**: Using `geemap` to create interactive maps that allow for the exploration of changes in NDVI and EVI.
+4. **Change Detection**: Applying masks to highlight areas with significant changes in vegetation.
+5. **Statistical Analysis**: Evaluating the relationship between NDVI and EVI and its statistical significance.
+6. **Policy Recommendations**: Based on the results, recommendations are provided for issuing timber harvest permits and related policies.
+
+Value Contribution
+
+The results of this analysis are essential for:
+
+- **Environmental Monitoring**: Improving monitoring practices for the sustainable management of forest resources.
+- **Consulting and Policy Recommendations**: Informing government agencies and conservation organizations with data-driven recommendations.
+
+Usage:
+- Adjust the visualization and analysis parameters according to the specific needs of the project. This is meant to serve at a starting point and example about how to analyzes different satellite information to make data-backed decisions regarding specific land parcels.
+
 ## **Usage**
 To utilize these scripts effectively, ensure you have the necessary dependencies installed and follow the instructions provided within each notebook. Feel free to explore, modify, and adapt the scripts to suit specific project requirements.
 
