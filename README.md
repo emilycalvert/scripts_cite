@@ -14,9 +14,9 @@ Value Contribution:
 
 - **Enhanced Monitoring and Enforcement:** In regions where monitoring and enforcement agencies lack efficient methods for verifying timber transport permits, this script fills a crucial gap. It enables quick, easy, and cost-effective verification of permits, thereby deterring illegal timber harvesting practices. 
 
-- **Consulting Services:** As a government agency involved in research and technology development, we willleverage this script to propose legislative recommendations aimed at standardizing permit verification practices. Subsequently, we can offer consulting services to other agencies, further extending our impact and revenue streams.
+- **Consulting Services:** As a government agency involved in research and technology development, we will leverage this script to propose legislative recommendations aimed at standardizing permit verification practices. Subsequently, we can offer consulting services to other agencies, further extending our impact and revenue streams.
 
-### ***2. analisis_salud_bosque_ejemplo.ipynb
+### **2. analisis_salud_bosque_ejemplo.ipynb**
 
 This notebook includes various analyses and visualizations that help understand changes in forest health and coverage in the Loreto region, Peru. Using vegetation indices such as NDVI and EVI, we can detect areas of vegetation gain or loss over time, which is crucial for making sustainable decisions in forest management.
 
