@@ -1,3 +1,10 @@
+ToDo:
+
+1. Check dates and thresholds for both scripts.
+2. Double check logic for loss and gain masks.
+4. Package falling verification- add automation & routine call structure that can be intergrated with the permit issuance system and guia de transito.
+5. Expand and explore health anaylsis- keep deriving actionable insights.
+
 # **Teledetection Lab Scripts**
 
 Welcome to my Teledetection Lab Scripts repository! Here, you'll find a collection of scripts and notebooks aimed at automating and enhancing workflows within our teledetection lab at CiteForestal-Maynas in the heart of the Amazon in Peru. These scripts have been developed to address specific needs and challenges, particularly in the realm of earth observation and remote sensing analysis for sustainable forestry.
