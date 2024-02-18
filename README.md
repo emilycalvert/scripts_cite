@@ -2,6 +2,7 @@ ToDo:
 
 1. Check dates and thresholds for both scripts.
 2. Double check logic for loss and gain masks.
+3. Call to Plant Data
 4. Package falling verification- add automation & routine call structure that can be intergrated with the permit issuance system and guia de transito.
 5. Expand and explore health anaylsis- keep deriving actionable insights.
 
