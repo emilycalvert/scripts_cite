@@ -1,7 +1,7 @@
 ToDo:
 - Note, Translate, Make Everything Look Nice in Both Scripts
 - Once Over Again For Errors
-Salud> New Notebook 4 Proposal:
+Salud> New Notebook 4 Proposal: Choose dates with reason.
   - Expand and explore health anaylsis- keep deriving actionable insights.
   - Develop Example IFM Methodology- and Baselines on Imaza
   - Verify in the field and conduct "further analysis" as necessary
