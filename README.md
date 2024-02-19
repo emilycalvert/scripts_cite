@@ -1,11 +1,12 @@
 ToDo:
-
-1. Check dates and thresholds for both scripts.
-2. Double check logic for loss and gain masks.
-3. Call to Planet Data
-4. Package falling verification- add automation & routine call structure that can be intergrated with the permit issuance system and guia de transito.
-5. Expand and explore health anaylsis- keep deriving actionable insights.
-6. IFM Baselines and Process
+- Note, Translate, Make Everything Look Nice in Both Scripts
+- Once Over Again For Errors
+SALUD> New Notebook:
+- Expand and explore health anaylsis- keep deriving actionable insights.
+- Develop Example IFM Methodology- and Baselines on Imaza
+- Verify in the field and conduct "further analysis" as necessary
+- Sample Verra Project
+- Ready submit to Prociencia
 
 # **Teledetection Lab Scripts**
 
