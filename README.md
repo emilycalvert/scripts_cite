@@ -1,12 +1,12 @@
 ToDo:
 - Note, Translate, Make Everything Look Nice in Both Scripts
 - Once Over Again For Errors
-SALUD> New Notebook:
-- Expand and explore health anaylsis- keep deriving actionable insights.
-- Develop Example IFM Methodology- and Baselines on Imaza
-- Verify in the field and conduct "further analysis" as necessary
-- Sample Verra Project
-- Ready submit to Prociencia
+Salud> New Notebook 4 Proposal:
+  - Expand and explore health anaylsis- keep deriving actionable insights.
+  - Develop Example IFM Methodology- and Baselines on Imaza
+  - Verify in the field and conduct "further analysis" as necessary
+  - Sample Verra Project
+  - Ready submit to Prociencia
 
 # **Teledetection Lab Scripts**
 
