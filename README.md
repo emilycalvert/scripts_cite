@@ -1,14 +1,3 @@
-ToDo:
-- Note, Translate, Make Everything Look Nice in Both Scripts
-- Once Over Again For Errors
-Salud> New Notebook 4 Proposal: Choose dates with reason.
-  - Expand and explore health anaylsis- keep deriving actionable insights.
-  - Thorough Review Compare IFM to Current Lineamientos
-  - Develop Example IFM Methodology- and Baselines on Imaza
-  - Verify in the field and conduct "further analysis" as necessary
-  - Sample Verra Project
-  - Ready submit to Prociencia
-
 # **Teledetection Lab Scripts**
 
 Welcome to my Teledetection Lab Scripts repository! Here, you'll find a collection of scripts and notebooks aimed at automating and enhancing workflows within our teledetection lab at CiteForestal-Maynas in the heart of the Amazon in Peru. These scripts have been developed to address specific needs and challenges, particularly in the realm of earth observation and remote sensing analysis for sustainable forestry.
