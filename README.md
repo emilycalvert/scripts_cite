@@ -3,6 +3,7 @@ ToDo:
 - Once Over Again For Errors
 Salud> New Notebook 4 Proposal: Choose dates with reason.
   - Expand and explore health anaylsis- keep deriving actionable insights.
+  - Thorough Review Compare IFM to Current Lineamientos
   - Develop Example IFM Methodology- and Baselines on Imaza
   - Verify in the field and conduct "further analysis" as necessary
   - Sample Verra Project
