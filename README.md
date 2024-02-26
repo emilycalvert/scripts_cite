@@ -1,24 +1,24 @@
 # **Teledetection Lab Scripts**
 
-Welcome to my Teledetection Lab Scripts repository! Here, you'll find a couple of scripts and notebooks aimed at automating and enhancing workflows within our teledetection lab at CiteForestal-Maynas in the heart of the Amazon in Peru. These scripts have been developed to address specific needs and challenges, particularly in the realm of earth observation and remote sensing analysis for sustainable forestry.
+Welcome to the enchanted forest of data and satellites – our Teledetection Lab Scripts repository! 🌍✨ Nestled in the heart of the Amazon at CiteForestal-Maynas, Peru, this digital grove is where technology meets Mother Nature in a quest for sustainable forestry. Inside, you'll discover a treasure trove of scripts and notebooks, each conjured to automate, enchant, and enhance our workflows with a sprinkle of earth observation and remote sensing magic.
 
 ## **Overview**
 
-This repository houses various Python scripts and Jupyter Notebooks designed to streamline processes and add value to our lab's operations. Each script serves a unique purpose and contributes to the overall efficiency and effectiveness of our workflows. Below is a brief overview of the main scripts included:
+Dive into a world where Python scripts and Jupyter Notebooks weave spells to streamline our lab’s quests. Each creation serves a unique purpose, fueling our efficiency and effectiveness in the realm of teledetection. Here's a sneak peek of the mystical manuscripts you'll encounter:
 
 ### **1. tallando_verification.ipynb**
 
-This notebook is a powerful tool for monitoring timber extraction activities. By inputting a CSV file containing latitude and longitude coordinates of vertices, users can define specific time frames (before and after) to compare NDVI (Normalized Difference Vegetation Index) values. The script generates a detailed report of polygons, allowing users to determine if timber extraction has occurred in a given area.
+A wizard’s tool for monitoring timber extraction with the precision of an eagle's eye. By channeling the power of latitude and longitude from a CSV file, this spell reveals time-shifting NDVI values across polygons, unmasking timber extraction secrets.
 
 Value Contribution:
 
-- **Enhanced Monitoring and Enforcement:** In regions where monitoring and enforcement agencies lack efficient methods for verifying timber transport permits, this script fills a crucial gap. It enables quick, easy, and cost-effective verification of permits, thereby deterring illegal timber harvesting practices. 
+- **Guardians of the Forest:** Bolsters our arsenal against illegal timber harvesting, with swift, cost-effective permit verification.
 
-- **Consulting Services:** As a government agency involved in research and technology development, we will leverage this script to propose legislative recommendations aimed at standardizing permit verification practices. Subsequently, we can offer consulting services to other agencies, further extending our impact and revenue streams.
+- **Sages of Policy and Consulting:** Empowers us to shape the future with legislative recommendations and consulting services, spreading our influence far and wide.
 
 ### **2. analisis_salud_bosque_ejemplo.ipynb**
 
-This notebook includes various analyses and visualizations that help understand changes in forest health and coverage in the Loreto region, Peru. Using vegetation indices such as NDVI and EVI, we can detect areas of vegetation gain or loss over time, which is crucial for making sustainable decisions in forest management.
+From data preparation spells to interactive map incantations, this journey through satellite imagery reveals the heartbeat of our forests, culminating in wisdom for timber harvest policies and conservation strategies.
 
 #### Analysis Process
 
@@ -35,16 +35,26 @@ Value Contribution
 
 The results of this analysis are essential for:
 
-- **Environmental Monitoring**: Improving monitoring practices for the sustainable management of forest resources.
-- **Consulting and Policy Recommendations**: Informing government agencies and conservation organizations with data-driven recommendations.
+- **Environmental Custodians:**: Elevates our monitoring rituals for the guardianship of forest treasures.
+- **Consulting Oracles:**  Bestows data-driven insights upon those who shape our lands and laws.
 
 Usage:
 - Adjust the visualization and analysis parameters according to the specific needs of the project. This is meant to serve at a starting point and example about how to analyzes different satellite information to make data-backed decisions regarding specific land parcels.
 
-## **Usage**
-To utilize these scripts effectively, ensure you have the necessary dependencies installed and follow the instructions provided within each notebook. Feel free to explore, modify, and adapt the scripts to suit specific project requirements.
+### **3. censo_visualizacion.ipynb**
 
-- imazacoord_NOppi.csv: data about one of the largest and oldest privately-own plots of mixed-forest for timber harvest here in Loreto, Peru. The owners of IMAZA have graciously allowed CiteForestal-Maynas to conduct extensive research to gain a deeper understanding of our ecosystem and forest health in relation to timber harvest. The scripts in here use the IMAZA csv for reference. All data contained is available through public land registries and private personal identifiers have been removed.
+  A newly discovered grimoire that delves into the censo_aprovechamiento.csv, unveiling the lore of trees assessed for harvest in 2022. Through enchanting comparisons and descriptive statistics, it chronicles the strengths and stories of each species within our forested realm.
+
+#### Data Artifacts:
+
+- **aprovechable_stats.csv & non_aprovechable_stats.csv:** The scrolls of knowledge, detailing the descriptive stats of our forest's bounty by species.
+- **df (the cleaned dataframe):** The purified essence of our data, ready for analysis and insight.
+
+## **Usage**
+
+To embark on this quest, ensure your satchel is packed with the necessary dependencies. Each script is a starting point for your own adventures, adaptable to the mysteries of your project.
+
+- imazacoord_NOppi.csv: The legend of IMAZA, a venerable expanse of mixed-forest, unfolds through this dataset. With gratitude to the stewards of IMAZA, this script taps into the ancient wisdom of our ecosystem for the betterment of our collective future.
 
 ## **Support and Feedback**
 If you encounter any issues, have suggestions for improvements, or would like to collaborate on further developments, please don't hesitate to reach out. Your feedback is invaluable in refining these scripts and driving innovation in our teledetection lab.
