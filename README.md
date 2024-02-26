@@ -1,3 +1,72 @@
+# Scripts de Teledetección
+
+¡Bienvenido a mi repositorio de Scripts de Teledetección! Aquí encontrarás un tesoro de scripts y cuadernos destinados a automatizar y mejorar los flujos de trabajo dentro de nuestro laboratorio de teledetección en CiteForestal-Maynas, en el corazón de la Amazonía peruana. Desarrollados para abordar necesidades y desafíos específicos, estas herramientas están a la vanguardia de la observación terrestre y el análisis de teledetección para la silvicultura sostenible. 🌍💚
+
+## Visión General
+
+Este repositorio es un hogar acogedor para varios scripts de Python y cuadernos Jupyter diseñados para agilizar procesos y esparcir un poco de magia en las operaciones de nuestro laboratorio. Cada script es como una poción única, contribuyendo a la eficiencia y efectividad general de nuestros flujos de trabajo. Aquí tienes un vistazo al mundo mágico en su interior:
+
+1. **tallando_verification.ipynb**
+   Un hechizo poderoso para monitorear las actividades de extracción de madera. Genera informes detallados a partir de polígonos definidos por entradas CSV, ofreciendo una vista de pájaro de la extracción de madera a lo largo del tiempo. 🌲🔍
+
+   - **Contribución de Valor:** Mejora el monitoreo y la aplicación de la ley, disuade la tala ilegal y allana el camino para servicios de consultoría y recomendaciones legislativas. 💼🌳
+
+2. **analisis_salud_bosque_ejemplo.ipynb**
+   Sumérgete en el corazón del bosque con análisis y visualizaciones que revelan los cambios pulsantes en su salud y cobertura. Utilizando NDVI y EVI, este cuaderno es tu guía a través de la selva verde de Loreto, Perú. 🍃💡
+
+   ### Proceso de Análisis
+   El proceso incluye los siguientes pasos:
+   - **Preparación de Datos:** Cargar y procesar imágenes satelitales Landsat para obtener índices de vegetación.
+   - **Análisis Temporal:** Comparar imágenes para detectar cambios en la cobertura vegetal entre dos períodos de tiempo.
+   - **Visualización Interactiva:** Usar geemap para crear mapas interactivos que permitan la exploración de cambios en NDVI y EVI.
+   - **Detección de Cambios:** Aplicar máscaras para resaltar áreas con cambios significativos en la vegetación.
+   - **Análisis Estadístico:** Evaluar la relación entre NDVI y EVI y su significancia estadística.
+   - **Recomendaciones de Políticas:** Basado en los resultados, se proporcionan recomendaciones para la emisión de permisos de tala y políticas relacionadas.
+
+   - **Contribución de Valor:** Los resultados de este análisis son esenciales para el monitoreo ambiental y proporcionar consultoría y recomendaciones de políticas basadas en datos. 📊📈
+
+3. **censo_visualizacion.ipynb**
+   Este cuaderno da vida al `censo_aprovechamiento.csv`, mostrando los árboles evaluados para la cosecha en 2022. Sumérgete en un mundo de comparaciones e ideas, desentrañando la historia de nuestros bosques a través de los datos. 🌳📊
+
+   - **aprovechable_stats.csv & non_aprovechable_stats.csv:** Estos archivos ofrecen estadísticas descriptivas por especie, mientras que `df.csv` representa la esencia depurada y pulida de nuestros datos, listos para el análisis. 📚🔍
+
+## Uso
+
+Embárcate en esta aventura con las dependencias necesarias a tu lado y sigue las instrucciones místicas proporcionadas en cada cuaderno. Siéntete libre de explorar, modificar y adaptar los hechizos para ajustarlos a las necesidades únicas de tu proyecto. Con las siguientes ideas y datos puedes realizar tu propio análisis.
+
+- **imazacoord_NOppi.csv:** Estos son los vértices para una de las parcelas de bosque mixto privado más antiguas de Loreto.
+- **censo_extra.csv:** Estos son datos adicionales del censo que se pueden usar con el script y para un análisis e ideas adicionales.
+
+## Flujos de Trabajo Amplios para la Gestión Forestal Sostenible
+
+Nuestros scripts no son solo herramientas; son portales para demostrar y abogar por la gestión forestal sostenible. Al entrelazar datos del censo con análisis de salud, empoderamos a los tomadores de decisiones con una visión holística de nuestros ecosistemas. 🌱🛤
+
+## Análisis Extendido Posible sobre la Salud:
+
+1. **Temperatura de la superficie terrestre:** Siente el calor de la Tierra mientras exploramos las variaciones de la temperatura superficial. 🔥🌡
+2. **Densidad del bosque:** Aventúrate en el corazón denso del bosque, entendiendo su profundo lenguaje no dicho. 🌲🌲
+3. **Cambio de biomasa:** Sé testigo de la transformación de la biomasa, una historia de crecimiento y descomposición. 🔄🍂
+4. **Degradación:** Descubre las cicatrices de la degradación, trazando un curso para la recuperación y resiliencia. 🌪🌿
+5. **Cambio de carbono:** Sigue el aliento del bosque, monitoreando el flujo y reflujo del cambio de carbono. 💨🌍
+
+### Cómo Integrar el Análisis de Salud con el Censo:
+
+1. **Análisis de Correlación Entre Parámetros de los Árboles e Índices de Teledetección:** Explora la relación entre las meticulosas mediciones en tierra de los parámetros de los árboles (como la calidad del tronco y las especies) y los altos índices de teledetección (NDVI y EVI) de las imágenes Sentinel. Desentraña cómo estos índices reflejan las condiciones y características reales del bosque. ¡Es una forma divertida e informativa de ver si ciertas especies o calidades de tronco resaltan como correlatos fuertes con las firmas saludables y exuberantes que capturamos desde el espacio! 🕵️‍♂️
+2. **Análisis Temporal para la Detección de Cambios:** Amplía tu análisis más allá de fechas estáticas para abrazar la historia dinámica del bosque. Al comparar los valores de NDVI y EVI a lo largo de varios puntos en el tiempo, crearás un diario viviente de la salud del bosque, siendo testigo de su danza a través de las estaciones, su resiliencia contra la cosecha y sus susurros de cambio a lo largo de los años. Esta narrativa continua nos ayuda a rastrear el pulso del vigor de la vegetación, identificando tendencias y cuentos de recuperación o declive.🚀
+3. **Análisis Espacial para Identificar Zonas de Impacto de la Cosecha:** Usa la magia del SIG para trazar áreas cosechadas y superponerlas sobre el cambiante tapiz de valores NDVI y EVI. Busca patrones que revelen el toque de la cosecha en la tela del bosque. Identificar zonas amortiguadoras más saludables o áreas donde la huella ecológica de la cosecha es un susurro, no un rugido, puede dirigir nuestras energías de conservación y manos de cosecha sabiamente.🗺️
+4. **Modelos de Aprendizaje Automático para Perspectivas Predictivas:** Desarrolla modelos que miren hacia el mañana, prediciendo la salud del bosque y destacando áreas sedientas de atención o maduras para la restauración. Incorpora los ricos detalles de la vulnerabilidad de las especies, cuentos de calidad del tronco e índices de teledetección históricos para afilar tu previsión. Esta visión proactiva puede revolucionar la gestión forestal, guiando la emisión de permisos con una mano sabia y nutriendo áreas antes de que sufran en silencio. 🤖
+5. **Desarrollo de un Índice de Sostenibilidad:** Desata tu creatividad para forjar un Índice de Sostenibilidad 🎨. Entrelaza los hilos de datos del censo de árboles, ritmos NDVI/EVI, narrativas de cosecha y perspectivas predictivas para esbozar un gráfico integral de la salud del bosque. Este índice, adaptado al latido único de tu bosque y sus sueños de administración, ilumina el camino para los tomadores de decisiones, destacando áreas vibrantes, regiones en recuperación y zonas anhelando un descanso del baile de la cosecha.
+
+Al abrazar estos análisis extendidos, no solo estamos procesando números; estamos contando la historia del bosque, pintando un futuro donde la conservación y la innovación giran en armonía. 🌲💃 Cada punto de datos es un trazo de pincel en esta obra maestra de la silvicultura sostenible, narrando una historia de equilibrio, crecimiento y resiliencia. Mantengamos nuestros bosques exuberantes, nuestras metodologías afiladas y nuestros corazones abiertos a las infinitas posibilidades de la ciencia de la conservación. ¡Aquí estamos para hacer que cada árbol cuente, cada análisis importe y cada decisión sea un paso hacia un mañana más verde! 🌍✌️
+
+Esta suite de análisis enriquecida está diseñada para guiar y dirigir la emisión de permisos y la planificación/gestión de la tierra, asegurando que cada decisión esté enraizada en la sostenibilidad y armonía con la naturaleza. 🌏💖
+
+## Soporte y Retroalimentación
+
+Si encuentras algún problema, tienes sugerencias para mejoras o te gustaría colaborar en desarrollos futuros, no dudes en contactarnos. Tu retroalimentación es invaluable en el refinamiento de estos scripts y en impulsar la innovación en nuestro laboratorio de teledetección.
+
+¡Sigamos empujando los límites de la observación de la Tierra y la teledetección juntos! 🌍✨ Ve a abrazar un árbol....🌴🌿🌱🌳
+
 # **Teledetection Lab Scripts**
 
 Welcome to my Teledetection Lab Scripts repository! Here, you'll find a treasure trove of scripts and notebooks aimed at automating and enhancing workflows within our teledetection lab at CiteForestal-Maynas, nestled in the heart of the Amazon in Peru. Developed to address specific needs and challenges, these tools are at the forefront of earth observation and remote sensing analysis for sustainable forestry. 🌍💚
